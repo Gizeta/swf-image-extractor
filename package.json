@@ -1,0 +1,28 @@
+{
+  "name": "swf-image-extractor",
+  "version": "0.1.0",
+  "description": "Extract images from swf file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gizeta/swf-image-extractor.git"
+  },
+  "keywords": [
+    "swf"
+  ],
+  "author": "Gizeta",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Gizeta/swf-image-extractor/issues"
+  },
+  "homepage": "https://github.com/Gizeta/swf-image-extractor#readme",
+  "dependencies": {
+    "concat-frames": "^1.0.3",
+    "jpg-stream": "^1.1.1",
+    "png-stream": "^1.0.5",
+    "swf-reader": "Gizeta/swf-reader#image"
+  }
+}
