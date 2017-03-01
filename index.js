@@ -1,4 +1,4 @@
-const SWFReader = require('swf-reader');
+const SWFReader = require('@gizeta/swf-reader');
 const Extractor = require('./src/extractor');
 
 module.exports = {
